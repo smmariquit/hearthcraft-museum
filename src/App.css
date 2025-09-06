@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f9fb;
+  color: #222;
+}
+
+.hc-museum-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hc-nav {
+  background: #3f88c5;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.hc-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.hc-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+.hc-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.hc-nav a:hover {
+  color: #e0e0e0;
+}
+
+.hc-header {
+  background: #3f88c5;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem 2rem 1rem;
+}
+.hc-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.hc-header h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+.hc-ip {
+  background: #fff;
+  color: #3f88c5;
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.hc-features {
+  background: #f0f4f8;
+  padding: 2.5rem 1rem;
+  text-align: center;
+}
+.hc-features h2 {
+  color: #3f88c5;
+  margin-bottom: 2rem;
+}
+.hc-feature-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.hc-feature {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 1.5rem 2rem;
+  max-width: 320px;
+  min-width: 220px;
+  flex: 1 1 220px;
+}
+.hc-feature h3 {
+  color: #3f88c5;
+  margin-bottom: 0.5rem;
+}
+
+.hc-about {
+  padding: 2.5rem 1rem;
+  background: #fff;
+  text-align: center;
+}
+.hc-about h2 {
+  color: #3f88c5;
+  margin-bottom: 1rem;
+}
+.hc-contact {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+}
+.hc-contact a {
+  color: #3f88c5;
+  text-decoration: underline;
+}
+
+.hc-reviews {
+  background: #f0f4f8;
+  padding: 2.5rem 1rem;
+  text-align: center;
+}
+.hc-reviews h2 {
+  color: #3f88c5;
+  margin-bottom: 1rem;
+}
+.hc-review-placeholder {
+  color: #888;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.hc-footer {
+  background: #3f88c5;
+  color: #fff;
+  text-align: center;
+  padding: 1.25rem 1rem 1rem 1rem;
+  margin-top: auto;
+}
+.hc-footer-links {
+  margin-bottom: 0.5rem;
+}
+.hc-footer a {
+  color: #fff;
+  text-decoration: underline;
+  margin: 0 0.5rem;
+}
+.hc-footer-copy {
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+@media (max-width: 800px) {
+  .hc-feature-list {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .hc-nav ul {
+    gap: 1rem;
+  }
+}
